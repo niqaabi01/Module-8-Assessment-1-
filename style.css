@@ -1,0 +1,49 @@
+body {
+    background-image: url("./images/business-website-blue-background.jpg");
+    background-size: 100%;
+    font-weight: 600;
+    font-family: 'Zen Loop';
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Zen Loop';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zenloop/v7/h0GtssK16UsnJwHsEJ9xkQ__4g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+form {
+    text-align: center;
+}
+
+.words {
+    text-align: center;
+    background-color: rgba(166, 206, 241, 0.822);
+}
+
+label {
+    border: solid 3px rgb(196, 184, 184);
+    padding: 1px;
+    margin: 5px;
+}
+
+#labelwords {
+    color: rgb(236, 240, 232);
+}
+
+form a {
+    text-decoration: none;
+    color: rgb(4, 105, 109);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rgb(28, 192, 204);
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px white;
+}
